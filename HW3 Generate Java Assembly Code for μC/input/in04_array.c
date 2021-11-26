@@ -1,0 +1,10 @@
+int x[3];
+x[0] = 1 + 2;
+x[1] = x[0] - 1;
+x[2] = x[2 - 1] * 3;
+print(x[0]);
+print("\n");
+print(x[1]);
+print("\n");
+print(x[2]);
+print("\n");
